@@ -1,166 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap Demo</title>
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"
-      defer
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-      defer
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap Demo</title>
 
-    <style>
-      .jumbotron {
-        background-color: #2e2d88;
-        color: white;
-      }
-      /* Adds borders for tabs */
-      .tab-content {
-        border-left: 1px solid #ddd;
-        border-right: 1px solid #ddd;
-        border-bottom: 1px solid #ddd;
-        padding: 10px;
-      }
-      .nav-tabs {
-        margin-bottom: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="page-header">
-        <h1>Bootstrap Demonstration</h1>
-      </div>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <div class="jumbotron">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-          voluptas, natus quae alias corrupti itaque impedit non illo quod
-          corporis nobis eos aperiam obcaecati? Officia non voluptatum eum sit
-          omnis?
-        </p>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Bootstrap Demonstration</h1>
+    </div>
 
-        <!-- Buttons -->
-        <div>
-          <!-- "role" isn't required, but it helps the readers -->
-          <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+    <div class="jumbotron">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+        voluptas, natus quae alias corrupti itaque impedit non illo quod
+        corporis nobis eos aperiam obcaecati? Officia non voluptatum eum sit
+        omnis?
+      </p>
 
-          <button type="submit" class="btn btn-danger" role="button">
-            Button
-          </button>
+      <!-- Buttons -->
+      <div>
+        <!-- "role" isn't required, but it helps the readers -->
+        <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
 
-          <input type="button" value="Info" class="btn btn-info" />
-          <button type="submit" class="btn-primary btn-sm">Primary</button>
-          <button type="submit" class="btn btn-success btn-xs">Success</button>
-          <button type="submit" class="btn btn-warning btn-lg">Warning</button>
-          <button type="submit" class="btn btn-link btn-lg">Link</button>
+        <button type="submit" class="btn btn-danger" role="button">
+          Button
+        </button>
 
-          <button
-            type="button"
-            class="btn btn-lg btn-primary"
-            disabled="disabled"
-          >
-            Primary
-          </button>
+        <input type="button" value="Info" class="btn btn-info" />
+        <button type="submit" class="btn-primary btn-sm">Primary</button>
+        <button type="submit" class="btn btn-success btn-xs">Success</button>
+        <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+        <button type="submit" class="btn btn-link btn-lg">Link</button>
 
-          <a href="#" class="btn btn-default btn-md disabled" role="button"
-            >Link</a
-          >
+        <button type="button" class="btn btn-lg btn-primary" disabled="disabled">
+          Primary
+        </button>
 
-          <div class="btn-group btn-group-lg" role="group">
-            <button type="button" class="btn btn-default">Small</button>
-            <button type="button" class="btn btn-default">Medium</button>
-            <button type="button" class="btn btn-default">Large</button>
-          </div>
+        <a href="#" class="btn btn-default btn-md disabled" role="button">Link</a>
+
+        <div class="btn-group btn-group-lg" role="group">
+          <button type="button" class="btn btn-default">Small</button>
+          <button type="button" class="btn btn-default">Medium</button>
+          <button type="button" class="btn btn-default">Large</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Column 1</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
-          illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
-          perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
-          praesentium ducimus! asdgfsadgs dsaf asdf asdf asfdsfasdf as asd
-          fasdfasdfdsa aoisfjdoiaji
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Column 2</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
-          illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
-          perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
-          praesentium ducimus!
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Column 1</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
+        illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
+        perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
+        praesentium ducimus! asdgfsadgs dsaf asdf asdf asfdsfasdf as asd
+        fasdfasdfdsa aoisfjdoiaji
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Column 2</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
+        illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
+        perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
+        praesentium ducimus!
+      </div>
 
-        <div class="clearfix visible-sm"></div>
+      <div class="clearfix visible-sm"></div>
 
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Column 3</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
-          illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
-          perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
-          praesentium ducimus!
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Column 3</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
+        illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
+        perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
+        praesentium ducimus!
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4>Column 4</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
+        illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
+        perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
+        praesentium ducimus!
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+        <h4><a href="#col1Content" data-toggle="collapse">Column1</a></h4>
+
+        <div id="col1Content" class="collapse in">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut
+          perferendis rem molestiae ratione facere illum cupiditate nam magni
+          reiciendis dolore laboriosam enim, minima exercitationem
+          necessitatibus a, omnis voluptatibus incidunt.
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4>Column 4</h4>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quia
-          illo, hic, doloribus facilis pariatur quisquam ipsum aliquam aut
-          perferendis obcaecati commodi nostrum excepturi eaque autem iure amet
-          praesentium ducimus!
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+        <h4><a href="#col2Content" data-toggle="collapse">Column2</a></h4>
+
+        <div id="col2Content" class="collapse">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
+          facere? Maiores qui animi unde itaque, totam consectetur atque
+          quisquam, ipsa, velit ad alias dolor autem magnam veritatis quia
+          neque sint.
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+        <h4><a href="#col3Content" data-toggle="collapse">Column3</a></h4>
+
+        <div id="col3Content" class="collapse">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
+          quo? Modi doloribus repellat eos unde. Quia dolores quas ratione
+          sequi, corrupti totam magnam aut illo molestiae harum maiores
+          assumenda voluptatibus?
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
-          <h4><a href="#col1Content" data-toggle="collapse">Column1</a></h4>
+</body>
 
-          <div id="col1Content" class="collapse in">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ut
-            perferendis rem molestiae ratione facere illum cupiditate nam magni
-            reiciendis dolore laboriosam enim, minima exercitationem
-            necessitatibus a, omnis voluptatibus incidunt.
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-          <h4><a href="#col2Content" data-toggle="collapse">Column2</a></h4>
-
-          <div id="col2Content" class="collapse">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam,
-            facere? Maiores qui animi unde itaque, totam consectetur atque
-            quisquam, ipsa, velit ad alias dolor autem magnam veritatis quia
-            neque sint.
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
-          <h4><a href="#col3Content" data-toggle="collapse">Column3</a></h4>
-
-          <div id="col3Content" class="collapse">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias,
-            quo? Modi doloribus repellat eos unde. Quia dolores quas ratione
-            sequi, corrupti totam magnam aut illo molestiae harum maiores
-            assumenda voluptatibus?
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </body>
 </html>
